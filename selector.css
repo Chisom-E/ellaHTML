@@ -1,0 +1,20 @@
+h1{
+    color: blue;
+}
+h3{
+    background-color: blueviolet;
+    color: bisque;
+    /* width: 200px;
+    height: 200px; */
+}
+.chisom{
+    color: rgb(197, 123, 27);
+    font-size: 30px;
+}
+.alice{
+    color: blueviolet;
+}
+button:hover{
+    background-color: aqua;
+    color: yellow;
+}

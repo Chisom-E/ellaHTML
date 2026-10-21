@@ -1,0 +1,29 @@
+.block{
+  display: inline;  
+}
+.inline{
+    display:block
+}
+.inline-block{
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+}
+.container{
+  display: flex;  
+  background-color:aqua;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.item{
+   background-color: brown; 
+   color: aliceblue;
+   padding: 20px;
+   margin: 5px;
+   width: 100px;
+} 

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head><div class">
+<body>
+  <form action="" method="">
+    <h1>Application Form</h1>
+    <div>
+        <label for="name">Name:</label>
+    <input type="text">
+     </div>
+     <div>
+<label for="email">Email:</label>
+     <input type="email" name="email" id="email" placeholder="goggle@gmail.com"> 
+     </div>
+     <div>
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone">
+     </div>
+     <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age">
+     </div>
+    <div>
+        <label for="Cv">Upload CV:</label>
+        <input type="file" name="Cv" id="">
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="">
+    </div>
+<div>
+    <p>Select Your Qualifications:</p>
+    <input type="checkbox" name="waec" id="waec">
+    <label for="waec">WAEC/O'LEVEL</label>
+    <br>
+    <input type="checkbox" name="Bsc" id="Bsc">
+    <label for="BSc">BSc</label>
+    <br>
+    <input type="checkbox" name="Msc" id="Msc">
+    <label for="Msc">Msc</label>
+    <br>
+    <div>
+        <p>Select Your Gender</p>
+        <input type="radio" name="gender" id="gender">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="gender">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="gender">
+        <label for="others">Others</label>
+    </div>
+    <!-- DOB -->
+     <div>
+        <label for="dob">Date of birth</label>
+        <input type="date" name="dob" id="dob">
+     </div>
+<!-- textarea -->
+ <p>Cover Letter</p>
+ <textarea name="cover" id="cover" rows="10" cols="50"></textarea>
+ <div>
+    <p>Select Country</p>
+    <select name="country" id="country">
+    <option value="canada">Canada</option>
+    <option value="usa">USA</option>
+    <option value="nigeria">Nigeria</option>
+    </select>
+ </div>
+ <!-- fieldset -->
+  <fieldset>
+    <legend>
+        <b>Employment Information</b>
+    </legend>
+    <div>
+        <label for="years">Years of Experience:</label>
+        <input type="number" name="years" id="years">
+    </div>
+    <div>
+        <label for="company">Company Name</label>
+        <input type="text" name="company" id="company">
+    </div>
+  </fieldset>
+  <input type="submit" value="submit">
+  <input type="reset" value="Reset">
+  <input type="button" value="Click Me">
+
+  </form>  
+  
+</body>
+</html>

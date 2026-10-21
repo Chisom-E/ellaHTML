@@ -1,0 +1,35 @@
+body{
+    background-color: red;
+}
+.container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+.box{
+    width: 300px;
+    height: 100px;
+    background-color: coral;
+    margin: 10px; 
+}
+.media{
+    font-size: 4rem;
+}
+/* basic syntax of media query: */
+@media(condition){
+    /* css styles for this condition */
+}
+
+@media screen and (max-width: 375px) { 
+    body{
+        background-color: purple;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .media{
+        font-size: 2rem;
+    }
+}

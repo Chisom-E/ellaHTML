@@ -1,0 +1,49 @@
+/* CSS provides different ways to colors namely:
+1. Normal color naming
+2. RGB (Red, Green, Blue)
+3. RGBA (Red, Green, Blue, with Alpha/transparency)
+4. Hexadecimal
+5. HSL (Hue, Saturation, Lightness),
+6. HSLA (HSL with Alpha/transparency) */
+.normal{
+    color:brown;
+    background-image: url('../images\ \(3\).png');
+    background-position: center;
+}
+.rgb{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.rgba{
+    color: rgba(255, 14, 14, 1)
+}
+.Hexadecimal{
+color: #b731e7;
+}
+.hsl{
+    color:hsl(60, 100%, 10%);
+}
+.hsla{
+    color: hsla(0, 100%, 70%, 0.5);
+}
+.bgimage{
+    width: 300px;
+    height: 200px;
+    background-image: url('../images\ \(3\).png');
+    background-size: cover;
+}
+/* body{
+    background-image: url('../images\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+.linear{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right,red, blue);
+}
+.gradient{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, yellow, green, purple, red);
+}

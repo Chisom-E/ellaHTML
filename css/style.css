@@ -1,0 +1,23 @@
+body{
+    background-color: blue;
+   color: beige; 
+}
+h1{
+    color: mediumvioletred;
+}
+.amaze
+{
+    color: rgb(214, 173, 7);
+}
+#nin
+{
+    background-color: black;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover
+{
+    background-color: chartreuse;
+    color: darkorange;
+}
